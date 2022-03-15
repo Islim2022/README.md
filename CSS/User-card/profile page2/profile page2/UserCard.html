@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        
+        <div class="nav-links">
+            <h1 class="nav-title">Profile</h1>
+            <a href="#" class="home">Home</a>
+            <a href="#" class="active">My Profile</a>
+            <a href="#"class="con">Find Connections</a>
+           
+        </div>
+        <button class="btn">Sign Out</button>
+    </div>
+<div class="fullcomponents">
+    <div class="all">
+    <div class="blue"></div>
+    <div class="circle">
+        <img src="img/user-circle.png" alt="user" class="small">
+    </div> 
+    <div class="white">
+       <h1 id="name">Jane Doe</h1>
+       <p><img src="img/map-marker.png" alt="icon" >
+       seattle</p>
+       <p>Developer | Engineer | Problem Solver<br><br>
+       Master of shadows and the internet!</p>
+       <img src="img/gear.png" alt="setting" >
+       <a href="#" onclick="EditProfileName()">edit profile</a>
+    </div>
+    <div class="education">
+        <div class="blackEducation"> Education</div>
+        
+        <div class="whiteEducation">
+           <p class="edu"><b> Dojo - Full Stack Bootcamp</b></p>
+           <p class="date">Dec 2019 - Mar 2020</p>
+           <p class="programmingLanguage">Triple black bell in Python , MERN , and C#..</p>
+        </div>
+    </div>
+    </div>
+    <div class="twoDivVerticle">
+        <div class="requests">
+            <div class="black1"> 
+                <div class="numberOfRequests" id="requests">2</div>
+                <label for="">Connection Requests</label> 
+            </div>
+            <div class="white1">
+                <div class="row1"> 
+                    <div id="l1">
+                        <img src="img/todd-s.jpg" alt="todd" class="p">
+                        <label class="label">Todd E</label>                   
+                        <img src="img/accept-circle.png" alt="accept" class="p" onclick="accept1()">
+                        <img src="img/close-circle.png" alt="close" class="p" onclick="reject1()">
+                    </div>                   
+                       
+                </div>
+
+                <div class="row1">
+                    <div id="l2">
+                        <img src="img/phil-s.jpg" alt="phil" class="p">
+                        <label class="label">Phil K</label>
+                        <img src="img/accept-circle.png" alt="accept" class="p" onclick="accept2()">
+                        <img src="img/close-circle.png" alt="close" class="p" onclick="reject2()">
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+        <div class="frinds">
+            <div class="black2">
+                <div class="numberOfConnection" id="connections">500</div> 
+               <label for="">Your Connections</label> </div>
+            <div class="white2">
+                <div class="row">
+                    <img src="img/todd-s.jpg" alt="todd" class="p">
+                        <label class="label">Todd em</label>
+                    </div>
+   
+                 <div class="row">
+                     <img src="img/phil-s.jpg" alt="phil" class="p">
+                     <label class="label">Phil K</label>
+                     
+                 </div>
+                 <div class="row">
+                    <img src="img/todd-s.jpg" alt="todd" class="p">
+                     <label class="label">Todd E</label>
+                     
+                 </div>
+                 <div class="row">
+                  <img src="img/phil-s.jpg" alt="phil" class="p">
+                     <label class="label">Phil K</label>
+                     
+                 </div>
+                 <div class="row2">
+                    <a href="#" class="link"> View More</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+    
+</body>
+</html>

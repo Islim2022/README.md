@@ -1,0 +1,79 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main {
+	background-color: rgb(36, 80, 118);
+}
+.header img {
+	width: 350px;
+	height: 100px;
+	margin: 10px 0px 0px 20px;
+}
+.search-bar {
+	background-color: #444444;
+	box-shadow: 3px 3px 3px black;
+	border-radius: 15px;
+	padding: 15px 40px 15px 45px;
+	position: relative;
+	float: right;
+	top: 28px;
+	right: 15px;
+}
+#search {
+	text-align: center;
+	padding: 10px;
+}
+#search-button {
+	color: white;
+	background-color: rgb(36, 80, 118);
+	padding: 10px 15px;
+	margin-left: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+.input {
+	color: #aaaaaa;
+	padding: 20px 60px;
+	background-color: white;
+}
+.text-size {
+	color: white;
+}
+.black-border {
+	color: black;
+}
+.normal, .large {
+	color: rgb(243, 204, 54);
+	text-decoration: underline;
+}
+.size {
+	position: absolute;
+	top: 15px;
+	right: 350px;
+	font-size: 14px;
+}
+.Nav-bar{
+    background-color: #3f7aad;
+    box-shadow: 3px 3px 3px black;
+    padding: 0.5px 0px;
+    margin: 25px 40px 0px 80px;
+	border-radius: 7px;
+}
+.Nav-bar ul {
+	display: table;
+	width: 90%;
+}
+.Nav-bar ul li {
+	display: table-cell;
+	text-align: center;
+	font-size: 22px;
+	color: white;
+}
+.content .lists ul{
+    margin-left: 60px;
+}

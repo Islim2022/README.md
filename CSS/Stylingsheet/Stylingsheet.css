@@ -1,0 +1,35 @@
+*{
+    font-family: monospace;
+}
+span{
+    color:aqua;
+}
+.head1{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+.head2{
+    color: white;
+    background-color: #663399;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.head3{
+    color: black;
+    background-color: #9fc5f8;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}

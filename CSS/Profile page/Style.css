@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.top{
+    background-color: #333333;
+    
+}
+.Nav-bar{
+    color: #ffffff;
+    width: 1080px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+.title{
+    margin-left: 20px;
+}
+.links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.links a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn{
+    background-color: #17a2b8;
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+    position: relative;
+    right: -420px;
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.col-1, .col-2{
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+.col-1{
+    flex: 2;
+}
+
+.user-card, .card{
+    background-color: #ffffff;
+    width: 100%;
+    border: 2px solid #999;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.card-header{
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content h1,
+.card-content h2,
+.card-content h3,
+.card-content p{
+    margin: 20px 0px;
+}
+.avatar-1{
+    height: 190px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.pin, .gear{
+    height: 20px;
+}
+a{
+    color: #3a81e6;
+}
+.header{
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 20px;
+}
+.avatar-2{
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+    
+}
+.connections, .requests{
+    background-color: #eee;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #333;
+    padding: 5px;
+    margin-right: 20px;
+}
+.start, .end{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.dates{
+    color: #777;
+    font-size: 20px;
+}
+.footer{
+    border-top: 2px solid #999;
+    padding: 20px;
+}
+.user, #user-1, #user-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
