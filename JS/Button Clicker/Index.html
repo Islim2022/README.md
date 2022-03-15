@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="Header">
+                <h1>Dojonary</h1>
+                <input type="text" placeholder="Search" class="search">
+                <button class="bt-1" onclick="login(this)">Login</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <div class="definition-box">
+                    <div class="definition-word">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="bt-2" onclick="message()">13 likes</button>
+                    </div>
+                    <p class="definition-text">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a> </p>  
+                </div>
+                <div class="definition-box">
+                    <div class="definition-word">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="bt-2" onclick="message()">37 likes</button>
+                    </div>
+                    <p class="definition-text">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="box">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="bt-3" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
