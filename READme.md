@@ -1,2 +1,2 @@
 # Hello World
-This is our Web-Fundamentals assignments for AXSOS Academy!
+This is our Web-Fundamentals assignments in AXSOS Academy!
