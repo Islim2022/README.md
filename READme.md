@@ -1,2 +1,2 @@
 # Hello World
-This is a readme for our first project!
+This is our Web-Fundamentals assignments for AXSOS Academy!
