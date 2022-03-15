@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="header">
+            <h1>DojoWeather</h1>
+            <ul class="city">
+                <li onclick="display()"><a href="#">Burbank</a></li>
+                <li onclick="display()"><a href="#">Chicago</a></li>
+                <li onclick="display()"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+ 
+    <div class="content">
+        <div class="column">
+            <div class="row-1">
+                <h2>San Jose</h2>
+                <div class="tempdisplay>">
+                    <label>show temperature in </label>
+                    <select id="temp-scale" onchange="load(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="condition">
+                    <h1>Today</h1>
+                    <img src="some_rain.png" alt="some rain">
+                    <p>some rain</p>
+                    <ul class="temp">
+                        <li class="high" id="temp1">24°</li>
+                        <li class="low" id="temp2">18°</li>
+                    </ul>                
+                </div>
+                <div class="condition">
+                    <h1>Tomorrow</h1>
+                    <img src="some_sun.png" alt="some rain">
+                    <p>some sun</p>
+                    <ul class="temp">
+                        <li class="high" id="temp3">27°</li>
+                        <li class="low" id="temp4">19°</li>
+                    </ul>
+                </div>
+                <div class="condition">
+                    <h1>Friday</h1>
+                    <img src="some_clouds.png" alt="some rain">
+                    <p>some clouds</p>
+                    <ul class="temp">
+                        <li class="high" id="temp5">21°</li>
+                        <li class="low" id="temp6">16°</li>
+                    </ul>
+                </div>
+                <div class="condition">
+                    <h1>Saturday</h1>
+                    <img src="some_sun.png" alt="some rain">
+                    <p>some sun</p>
+                    <ul class="temp">
+                        <li class="high" id="temp7">26°</li>
+                        <li class="low" id="temp8">21°</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-3"> 
+                <img src="cookie.png" alt="cookie" class="cookie">
+                <div class="cookietime">
+                    <h2>Stop! Cookie time.</h2>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a> </p>
+                </div>
+                <button class="btn" onclick="accept()" >I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

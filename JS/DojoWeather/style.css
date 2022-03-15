@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header, .content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #9fc5f8;
+    color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 17%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.header h1{
+    font-size: 2.5rem;
+}
+.header ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.row-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px dotted #999;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.row-1 h2{
+    font-size: 1.9rem;
+}
+.row-1 label, .row-1 select{
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.row-2, .row-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.condition{
+    background-color: #ddd;
+    padding: 35px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+img{
+    height: 155px;
+    border-radius: 50%;
+    margin: 40px 0px;
+}
+.condition p{
+    font-size: 1.3rem;
+}
+.temp{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.high{
+    color: #cf2a27;
+}
+.low{
+    color: #2b78e4;
+}
+.high, .low{
+    font-size: 1.6rem;
+    font-weight: 950;
+}
+.row-3{
+    border: 3px solid black;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    padding: 0px 25px;
+    border-radius: 4px;
+}
+.cookie{
+    height: 80px;
+}
+.btn{
+    width: 150px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    background-color: #9fc5f8;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.cookietime {
+    width: 70%;
+}
+.cookietime h2{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.cookietime p{
+    font-size: 1.2rem;
+}
+
+
